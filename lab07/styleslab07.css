@@ -1,0 +1,12 @@
+nav {background-color: #aebadb;}
+nav a {color: #5e6567;}
+nav a:hover {background-color: #7d3838;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h1, h2 {color: #6fa0ed;}
+.evenrow {background-color: lightgrey;}
+.skillcat {background-color: #6fa0ed;}
+h1 {font-size: 3.45em;}
+h2 {font-size: 1.75em;}
+body {background-color: #dcdfe6;}
