@@ -1,0 +1,26 @@
+nav {background-color: #aebadb;}
+nav a {color: #5e6567;}
+nav a:hover {background-color: #7d3838;}
+nav {padding: 10px;}
+nav {margin-bottom: 30px;}
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h1, h2 {color: #6fa0ed;}
+.evenrow {background-color: lightgrey;}
+.skillcat {background-color: #6fa0ed;}
+h1 {font-size: 3em;}
+h2 {font-size: 1.75em;}
+body {background-color: #dcdfe6;}
+p, tr, td, caption {color: #202729;}
+.jackiequote {justify-content: end;}
+.contactrow1 {display: flex; padding: 5px; background-color: #fcfcfc; border-radius: 1em; margin: 15px;}
+.contactrow2 {display: flex; padding: 5px; background-color: #fcfcfc; border-radius: 1em; margin: 15px;}
+.addy, .emailll {margin: 75px;}
+.form1,.map {margin: 50px;}
+.skillsheader {text-align: center;}
+.icons {width: 25%;}
+.gwi {width: 9%;}
+.iconrow {display: flex; flex: 4; justify-content: space-evenly; margin: 20px;}
+.otherskills {background-color: #cce5ff; border-radius: 1em;
+flex: 1; padding: 20px;}
+.otherheader {color: rgb(32, 32, 80);}
+.flex2 {display: flex;}
