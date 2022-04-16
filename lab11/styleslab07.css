@@ -1,4 +1,4 @@
-nav {background-color: #dcdfe6;}
+nav {background-color: #fcfcfc;}
 nav a {color: #1f3354;}
 nav a:hover {background-color: #C1445D;}
 nav {padding: 10px;
@@ -20,7 +20,7 @@ p, tr, td, caption {color: #202729;}
 .icons {width: 25%;}
 .gwi {width: 9%;}
 .iconrow {display: flex; flex: 4; justify-content: space-evenly; margin: 20px;}
-.otherskills {background-color: #cce5ff; border-radius: 1em;
+.otherskills {background-color: #fcfcfc; border-radius: 1em;
 flex: 1; padding: 20px;}
 .otherheader {color: #1f3354;}
 .flex2 {display: flex;}
