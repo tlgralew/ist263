@@ -1,6 +1,6 @@
 nav {background-color: #1f3354;}
-nav a {color: #dcdfe6;}
-nav a:hover {background-color: #981818;}
+nav a {color: #fbfcfe;}
+nav a:hover {background-color: #C1445D;}
 nav {padding: 10px;
   margin-bottom: 30px;}
 body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
@@ -25,16 +25,14 @@ flex: 1; padding: 20px;}
 .otherheader {color: #1f3354;}
 .flex2 {display: flex;}
 .introphoto {max-width: 100%;}
-.skiptocontent {
-  background: #C1445D;
-  height: 30px;
-  left: 50%;
-  padding: 8px;
-  position: absolute;
-  transform: translateY(-100%);
+#skip {
+  position: absolute; 
+  left: -999px;
+  background-color: #1f3354;
+  padding: 5px;
 }
-.skiptocontent:focus {
-  transform: translateY(0%);
+#skip:focus {
+  left: 10px;
 }
 @media only screen and (max-width: 800px) {
   nav a {display: block;
