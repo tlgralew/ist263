@@ -11,7 +11,7 @@ h1 {font-size: 3em;}
 h2 {font-size: 1.75em;}
 body {background-color: #dcdfe6;}
 p, tr, td, caption {color: #202729;}
-.jackiequote {justify-content: end;}
+.jackiequote {justify-content: right;}
 .contactrow1 {display: flex; flex-wrap: wrap; padding: 5px; background-color: #fcfcfc; border-radius: 1em; margin: 15px;}
 .contactrow2 {display: flex; flex-wrap: wrap; padding: 5px; background-color: #fcfcfc; border-radius: 1em; margin: 15px;}
 .addy, .emailll {margin: 75px;}
