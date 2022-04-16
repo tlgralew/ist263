@@ -1,10 +1,10 @@
-nav {background-color: #aebadb;}
-nav a {color: #5e6567;}
-nav a:hover {background-color: #7d3838;}
+nav {background-color: #1f3354;}
+nav a {color: #dcdfe6;}
+nav a:hover {background-color: #981818;}
 nav {padding: 10px;
   margin-bottom: 30px;}
 body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
-h1, h2 {color: #6fa0ed;}
+h1, h2 {color: #1f3354;}
 .evenrow {background-color: lightgrey;}
 .skillcat {background-color: #6fa0ed;}
 h1 {font-size: 3em;}
@@ -22,19 +22,21 @@ p, tr, td, caption {color: #202729;}
 .iconrow {display: flex; flex: 4; justify-content: space-evenly; margin: 20px;}
 .otherskills {background-color: #cce5ff; border-radius: 1em;
 flex: 1; padding: 20px;}
-.otherheader {color: rgb(32, 32, 80);}
+.otherheader {color: #1f3354;}
 .flex2 {display: flex;}
 .introphoto {max-width: 100%;}
+.skiptocontent {
+  background: #C1445D;
+  height: 30px;
+  left: 50%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-100%);
+}
+.skiptocontent:focus {
+  transform: translateY(0%);
+}
 @media only screen and (max-width: 800px) {
   nav a {display: block;
     margin: 10px;}
   span {display: none;}}
-  #skip {
-    position: absolute; 
-    left: -999px;
-    background-color: #C1445D;
-    padding: 5px;
-}
-#skip:focus {
-    left: 10px;
-}
