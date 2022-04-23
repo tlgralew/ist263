@@ -3,19 +3,33 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <title>Lab 11</title>
+    <style>
+        .container {
+            display: flex;}
+        #first {order: 1;}
+        #second {order: 2;}
+        #third {order: 3;}
+    </style>
     <script>
        function WinnerMessage () {
-        alert('You won!');
+       document.getElementById("messages").innerHTML = 'You Won!' ;
        } 
        function TryAgain () {
-        alert('Wrong Shell - Try Again');
+        document.getElementById("messages").innerHTML = 'Wrong Shell - Try Again' ;
+       }
+       function ShuffleShells() {
+           document.getElementById("first").style.order = Math.floor((Math.random() * 3) + 2);
        }
     </script>
 </head>
-<body>
+<body onload="ShuffleShells();">
+    <div class="container">
     <h1>Choose a Walnut</h1>
-    <img src="lab12practicefile_files/walnut.jpg" alt="first walnut" onclick="WinnerMessage();">
-    <img src="lab12practicefile_files/walnut.jpg" alt="second walnut" onclick="TryAgain();">
-    <img src="lab12practicefile_files/walnut.jpg" alt="third walnut" onclick="TryAgain();">
+    <img src="lab12practicefile_files/walnut.jpg" alt="first walnut" id="first" onclick="WinnerMessage();">
+    <img src="lab12practicefile_files/walnut.jpg" alt="second walnut" id="second" onclick="TryAgain();">
+    <img src="lab12practicefile_files/walnut.jpg" alt="third walnut" id="third" onclick="TryAgain();">
+    </div>
+
+    <div id="messages"></div>
 
 </body></html>
