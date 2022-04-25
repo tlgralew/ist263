@@ -1,0 +1,30 @@
+nav {
+    background-color: #111f75;
+    }
+nav a {
+    color: #ecf2f5;
+}
+nav a:hover {
+    background-color: #e65a3b;
+}
+nav {font-weight: bold;
+  padding: 10px;
+  margin-bottom: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#skip {
+    position: absolute; 
+    left: -999px;
+    background-color: #e65a3b;
+    padding: 5px;
+  }
+  #skip:focus {
+    left: 10px;
+  }
+  @media only screen and (max-width: 800px) {
+    nav a {display: block;
+      margin: 10px;}
+    span {display: none;}}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

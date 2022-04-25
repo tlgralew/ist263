@@ -1,0 +1,222 @@
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111f75;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ecf2f5;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a:hover {
+    background-color: #e65a3b;
+}
+
+.active {
+    background-color: #e65a3b;
+}
+
+#skip {
+    position: absolute; 
+    left: -999px;
+    background-color: #e65a3b;
+    padding: 5px;
+  }
+  #skip:focus {
+    left: 10px;
+  }
+
+h1 {
+    color: #e65a3b;
+    font-size: 2.75em;
+    text-align: center;
+}
+
+.openingphoto {
+    position: relative;
+    color: #ecf2f5;
+    margin: 10px;
+}
+
+.introbackground {
+    width: 100%;
+}
+
+.introheader {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.title {
+    color: #ecf2f5;
+    font-weight: bold;
+    font-size: 2.35em;
+}
+
+.bottomleftheader {
+    position: absolute;
+    top: 450px;
+    left: 30px;
+    background-color: #e65a3b;
+    padding: 2px;
+}
+
+.learnabout {
+    font-size: 1em;
+}
+
+.introtext {
+    position: absolute;
+    top: 505px;
+    left: 30px;
+    background-color: #e65a3b;
+    width: 55%;
+    padding: 2px;
+}
+
+.infointro {
+    font-size: .75em;
+}
+
+.formoreinfo {
+    position: absolute;
+    top: 630px;
+    left: 30px;
+    background-color: #e65a3b;
+    padding: 2px;
+}
+
+.jordan11 {
+    position: relative;
+    color: #ecf2f5;
+    margin: 10px;
+}
+
+.introjordan {
+    width: 100%;
+}  
+
+.coolgrey {
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    padding: 2px;
+    width: 55%;
+}
+
+.retro {
+    background-color: #e65a3b;
+    font-size: 1.15em;
+}
+
+.jordantonike {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    padding: 2px;
+    width: 55%;
+}
+
+.learnmorenike {
+    background-color: #e65a3b;
+    font-size: 1.15em;
+    text-decoration: none;
+    color: #ecf2f5;
+    font-weight: bold;
+}
+
+.af1 {
+    position: relative;
+    color: #ecf2f5;
+    margin: 10px;
+}
+
+.introaf1 {
+    width: 100%;
+}
+
+.goldsilver {
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    padding: 2px;
+    width: 55%;
+}
+
+.virgil {
+    background-color: #e65a3b;
+    font-size: 1.15em;
+}
+
+.niketonike {
+    position: absolute;
+    top: 210px;
+    left: 30px;
+    padding: 2px;
+    width: 55%;
+}
+
+.adidasintro {
+    position: relative;
+    color: #ecf2f5;
+    margin: 10px;
+}
+
+.introyeezy{
+    width: 100%;
+}
+
+.firstyeezy {
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    padding: 2px;
+    width: 55%;
+}
+
+.groundbreaking {
+    background-color: #e65a3b;
+    font-size: 1.15em;
+}
+
+.adtoad {
+    position: absolute;
+    top: 190px;
+    left: 30px;
+    padding: 2px;
+    width: 55%;
+}
+
+.learnmoreadidas {
+    background-color: #e65a3b;
+    font-size: 1.15em;
+    text-decoration: none;
+    color: #ecf2f5;
+    font-weight: bold;
+}
+
+.keep {
+    font-size: .65em;
+}
+
+  @media only screen and (max-width: 800px) {
+    nav a {display: block;
+      margin: 10px;}
+    span {display: none;}}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #bdcbd4;
+}
