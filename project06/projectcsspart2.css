@@ -22,10 +22,12 @@ li a {
 
 li a:hover {
     background-color: #e65a3b;
+    color: #111f75;
 }
 
 .active {
     background-color: #e65a3b;
+    color: #111f75;
 }
 
 #skip {
@@ -76,6 +78,7 @@ h1 {
 
 .learnabout {
     font-size: 1em;
+    color: #111f75;
 }
 
 .introtext {
@@ -89,6 +92,7 @@ h1 {
 
 .infointro {
     font-size: .75em;
+    color: #111f75;
 }
 
 .formoreinfo {
@@ -97,6 +101,11 @@ h1 {
     left: 30px;
     background-color: #e65a3b;
     padding: 2px;
+}
+
+.keep {
+    font-size: .65em;
+    color: #111f75;
 }
 
 .jordan11 {
@@ -120,6 +129,7 @@ h1 {
 .retro {
     background-color: #e65a3b;
     font-size: 1.15em;
+    color: #111f75;
 }
 
 .jordantonike {
@@ -134,7 +144,7 @@ h1 {
     background-color: #e65a3b;
     font-size: 1.15em;
     text-decoration: none;
-    color: #ecf2f5;
+    color: #111f75;
     font-weight: bold;
 }
 
@@ -159,6 +169,7 @@ h1 {
 .virgil {
     background-color: #e65a3b;
     font-size: 1.15em;
+    color: #111f75;
 }
 
 .niketonike {
@@ -190,6 +201,7 @@ h1 {
 .groundbreaking {
     background-color: #e65a3b;
     font-size: 1.15em;
+    color: #111f75;
 }
 
 .adtoad {
@@ -204,13 +216,10 @@ h1 {
     background-color: #e65a3b;
     font-size: 1.15em;
     text-decoration: none;
-    color: #ecf2f5;
+    color: #111f75;
     font-weight: bold;
 }
 
-.keep {
-    font-size: .65em;
-}
 
   @media only screen and (max-width: 800px) {
     nav a {display: block;
