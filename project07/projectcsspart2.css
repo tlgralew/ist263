@@ -21,19 +21,19 @@ li a {
 }
 
 li a:hover {
-    background-color: #e65a3b;
+    background-color: #b13519;
     color: #111f75;
 }
 
 .active {
-    background-color: #e65a3b;
-    color: #111f75;
+    background-color: #b13519;
+    color: #ecf2f5;
 }
 
 #skip {
     position: absolute; 
     left: -999px;
-    background-color: #e65a3b;
+    background-color: #b13519;
     padding: 5px;
   }
   #skip:focus {
@@ -41,7 +41,7 @@ li a:hover {
   }
 
 h1 {
-    color: #e65a3b;
+    color: #b13519;
     font-size: 2.75em;
     text-align: center;
 }
