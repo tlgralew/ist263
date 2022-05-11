@@ -69,13 +69,14 @@ h1 {
     color: #ecf2f5;
     font-weight: bold;
     font-size: 2.35em;
+    background-color: #b13519;
 }
 
 .bottomleftheader {
     position: absolute;
     top: 450px;
     left: 30px;
-    background-color: #e65a3b;
+    background-color: #b13519;
     padding: 2px;
 }
 
@@ -88,7 +89,7 @@ h1 {
     position: absolute;
     top: 505px;
     left: 30px;
-    background-color: #e65a3b;
+    background-color: #b13519;
     width: 55%;
     padding: 2px;
 }
@@ -102,7 +103,7 @@ h1 {
     position: absolute;
     top: 630px;
     left: 30px;
-    background-color: #e65a3b;
+    background-color: #b13519;
     padding: 2px;
 }
 
@@ -133,7 +134,7 @@ h1 {
 }
 
 .retro {
-    background-color: #e65a3b;
+    background-color: #b13519;
     font-size: 1.15em;
     color: #ecf2f5;
 }
@@ -147,7 +148,7 @@ h1 {
 }
 
 .learnmorenike {
-    background-color: #e65a3b;
+    background-color: #b13519;
     font-size: 1.15em;
     text-decoration: none;
     color: #ecf2f5;
@@ -176,7 +177,7 @@ h1 {
 }
 
 .virgil {
-    background-color: #e65a3b;
+    background-color: #b13519;
     font-size: 1.15em;
     color: #ecf2f5;
 }
@@ -211,7 +212,7 @@ h1 {
 }
 
 .groundbreaking {
-    background-color: #e65a3b;
+    background-color: #b13519;
     font-size: 1.15em;
     color: #ecf2f5;
 }
@@ -225,7 +226,7 @@ h1 {
 }
 
 .learnmoreadidas {
-    background-color: #e65a3b;
+    background-color: #b13519;
     font-size: 1.15em;
     text-decoration: none;
     color: #ecf2f5;
